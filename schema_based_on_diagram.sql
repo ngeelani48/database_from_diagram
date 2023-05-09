@@ -39,3 +39,20 @@ CREATE TABLE "Patients" (
   PRIMARY KEY ("id")
 );
 
+
+CREATE TABLE "Medical_histories" (
+  "id" bigserial,
+  "admitted_at" timestamp,
+  "patient_id" int,
+  "status" varchar(50),
+  PRIMARY KEY ("id"),
+  CONSTRAINT "FK_Medical_histories.patient_id"
+    FOREIGN KEY ("patient_id")
+      REFERENCES "Patients"("id")
+);
+
+CREATE TABLE "Treatment_histories" (
+  "medical_histories_id" int,
+  "treatment_id" int,
+  PRIMARY KEY ("medical_histories_id", "treatment_id")
+);
