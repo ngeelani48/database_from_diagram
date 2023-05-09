@@ -54,5 +54,11 @@ CREATE TABLE "Medical_histories" (
 CREATE TABLE "Treatment_histories" (
   "medical_histories_id" int,
   "treatment_id" int,
-  PRIMARY KEY ("medical_histories_id", "treatment_id")
+    CONSTRAINT "FK_Treatment_histories.medical_histories_id"
+    FOREIGN KEY ("medical_histories_id")
+      REFERENCES "Medical_histories"("id"),
+    CONSTRAINT "FK_Treatment_histories.treatment_id"
+    FOREIGN KEY ("treatment_id")
+      REFERENCES "Treatment"("id"),
 );
+
