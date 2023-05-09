@@ -2,7 +2,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>VET CLINIC Database</b></h3>
+  <h3><b>Database based on Diagram (A Hospital)</b></h3>
 
 </div>
 
@@ -10,7 +10,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[VET CLINIC Database\] ](#-vet-clinic-database-)
+- [📖 \[Database based on Diagram (A Hospital)\] ](#-database-based-on-diagram-a-hospital-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -29,11 +29,10 @@
   - [📝 License ](#-license-)
 
 
-# 📖 [VET CLINIC Database] <a name="about-project"></a>
+# 📖 [Database based on Diagram (A Hospital)] <a name="about-project"></a>
 
-> This project Vet Clinic database that that store details of animals in form of a Table and also generates specific reports using SQL quesries.
+> This project Database based on Diagram (A Hospital) that store details of patients in form of a Tables and also have tables for medical histories, treatments and invoices.
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 - Postgres
@@ -70,8 +69,8 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[Animals table that consists of details of each animals eg. Name, DoB, etc.]**
-- **[Queries to list all animals whose names ends with `'mon'`]**
+- **[Patients table that consists of details of each patient eg. Name, DoB, etc.]**
+- **[Other tables about medical and treatment history of a patient]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +100,7 @@ Install Postgres SQL
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/ngeelani48/Vet-clinic-database.git
+  git clone https://github.com/ngeelani48/database_from_diagram.git
   cd vet-clinic 
 ```
 
@@ -138,7 +137,13 @@ You can deploy this project using:
 
 - GitHub: [@ngeelani48](https://github.com/ngeelani48)
 - Twitter: [@twitterhandle](https://twitter.com/ngeelani48)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ngeelani/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-nafees/)
+
+👤 **Stephen Addae**
+
+- GitHub: [@Stephen-Adom](https://github.com/Stephen-Adom)
+- Twitter: [@stephen_alaska](https://twitter.com/stephen_alaska)
+- LinkedIn: [Stephen Addae](https://www.linkedin.com/in/stephen-addae/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -146,9 +151,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [] **[Add join table for visits]**
+- [] **[Add date to tables]**
 - [] **[Database performance edit]**
-- [] **[Add database schema diagram]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -158,7 +162,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ngeelani48/Vet-clinic-database/issues).
+Feel free to check the [issues page](https://github.com/ngeelani48/database_from_diagram/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
