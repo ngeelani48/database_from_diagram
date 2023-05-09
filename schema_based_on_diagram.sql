@@ -7,6 +7,9 @@ CREATE TABLE "Invoices" (
   "payed_at" timestamp,
   "medical_history_id" int,
   PRIMARY KEY ("id")
+  CONSTRAINT "FK_Invoices.medical_history_id"
+    FOREIGN KEY ("medical_history_id")
+      REFERENCES "medical_histories"("id"),
 );
 
 CREATE TABLE "Treatment" (
